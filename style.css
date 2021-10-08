@@ -119,12 +119,6 @@ span.badge {
 	border-style: solid;
 }
 
-.badge.badge-python {
-	background-color: #3776ab;
-	color: #ffd343;
-	border-color: #ffd34333;
-}
-
 .badge.badge-django {
 	background-color: #0C4B33;
 	color: #ffffff;
@@ -143,10 +137,28 @@ span.badge {
 	border-color: #ffffff33;
 }
 
+.badge.badge-python {
+	background-color: #3776ab;
+	color: #ffd343;
+	border-color: #ffd34333;
+}
+
+.badge.badge-rails {
+	background-color: #ffffff;
+	color: #cc0000;
+	border-color: #cc000033;
+}
+
 .badge.badge-react {
 	background-color: #282c34;
 	color: #61dafb;
 	border-color: #61dafb33;
+}
+
+.badge.badge-ruby {
+	background-color: #cc342d;
+	color: #ffffff;
+	border-color: #ffffff33;
 }
 
 .badge.badge-typescript {

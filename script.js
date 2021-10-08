@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function renderProjects(projects) {
+    console.log(projects);
     projects.forEach(renderProject);
 }
 
