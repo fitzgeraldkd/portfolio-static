@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1400"
+   height="800"
+   viewBox="0 0 370.41665 211.66667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="spacebook-logo-stacked.svg"
+   inkscape:export-filename="C:\Users\Kenny\Desktop\MyDocuments\Projects\Python\PDSCJ2020\spacebook-logo-light.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="619.22351"
+     inkscape:cy="346.48232"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1016"
+     inkscape:window-y="1078"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="0"
+     width="1400px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-12.294398,-29.730473)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.294398,-29.730473)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3713"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(1.314498,0,0,1.314498,-60.783941,-67.729145)"><flowRegion
+         id="flowRegion3715"
+         style="fill:#ffffff"><rect
+           id="rect3717"
+           width="602.0509"
+           height="338.40109"
+           x="69.700523"
+           y="170.95599"
+           style="fill:#ffffff" /></flowRegion><flowPara
+         id="flowPara3719"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.6689px;font-family:'Reem Kufi';-inkscape-font-specification:'Reem Kufi';fill:#ffffff;fill-opacity:1">spacebook</flowPara></flowRoot>
+    <g
+       id="g846"
+       transform="matrix(1.5537341,0,0,1.5537341,-192.71156,-16.539966)">
+      <circle
+         style="opacity:1;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.415192"
+         id="path3724"
+         cx="211.67746"
+         cy="84.787994"
+         r="27.261492" />
+      <circle
+         style="opacity:1;fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         id="path3726"
+         cx="171.98795"
+         cy="62.203716"
+         r="6.0135641" />
+      <circle
+         style="opacity:1;fill:#ac9393;fill-opacity:1;stroke:none;stroke-width:0.133872"
+         id="path3726-2"
+         cx="168.61618"
+         cy="46.332069"
+         r="3.0427084" />
+    </g>
+  </g>
+</svg>

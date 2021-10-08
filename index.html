@@ -4,31 +4,54 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./dotmatrix-animation.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- <script src="./node_modules/jquery/dist/jquery.min.js"></script> -->
+    <!-- <script src="./dotmatrix.js"></script> -->
+    <!-- <script src="./dotmatrix-canvas.js"></script> -->
+    <script src="./script.js"></script>
 
+    <link rel="alternate icon" href="./media/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="./media/favicon.svg">
 
     <title>Ken Fitzgerald - Portfolio</title>
 </head>
 <body>
     <div class="d-flex flex-md-column flex-row flex-shrink-0 bg-light navigation align-items-center">
-        
+        <!-- <svg id="dotmatrix"></svg> -->
+        <!-- <canvas id='canvas' width="64" height="64"></canvas> -->
         <ul class="nav nav-pills nav-flush flex-row flex-md-column mb-auto text-center">
             <li>
                 <a href="#" class="nav-link py-2 my-auto link-secondary">
                     <i class="bi bi-house-door-fill" style="font-size: 32px;"></i>
+                    <span class='nav-icon-text'>Home</span>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/fitzgeraldkd" class="nav-link py-2 my-auto link-secondary" target="_blank">
                     <i class="bi bi-github" style="font-size: 32px;"></i>
+                    <span class='nav-icon-text'>GitHub</span>
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/kenneth-fitzgerald/" class="nav-link py-2 my-auto link-secondary" target="_blank">
                     <i class="bi bi-linkedin" style="font-size: 32px;"></i>
+                    <span class='nav-icon-text'>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link py-2 my-auto link-secondary">
+                    <i class="bi-devto"></i>
+                    <span class='nav-icon-text'>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link py-2 my-auto link-secondary">
+                    <i class="bi-devto"></i>
+                    <br>
+                    <span class='nav-icon-text'>Blog</span>
                 </a>
             </li>
         </ul>
@@ -36,29 +59,119 @@
 
     <div id='rainbow-scroll'></div>
     <div class="body">
-         
-    <h3>
-        Kenneth David Fitzgerald's Portfolio
-    </h3>
-    <div class="home-header body-text">
-        I am building this Django web application to give myself a place to document and share the projects I have worked on. I am self-taught in programming and am most familiar with Python but have experience in HTML/CSS/JavaScript and SQL as well. I also have limited experience in Lua and PHP. The projects I've worked on have been opportunities for me to further my understanding of programming while also exploring another topic I'm interested in. Links to my LinkedIn and GitHub are also included if you wish to contact me. Thanks for taking a look!
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-    <!-- {% for project in projects %}
-        <a href="{% url 'project-detail' project.pk %}" class="link-dark text-decoration-none">
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="{{ project.image.url }}" class="card-img-top" />
-                    <div class="card-footer">
-                        <h5 class="card-title" style="text-decoration:none;">
-                            {{ project.title }}
-                        </h5>
+            
+        <h3>
+            Kenneth David Fitzgerald's Portfolio
+        </h3>
+        <div class="home-header body-text">
+            <div class="headshot-container">
+            <img src='./media/headshot-square.jpg' class="headshot"><span class="helper"></span>
+            </div>
+            <div class="bio-container">
+                I'm Kenny and I'm a full-stack engineer!
+                I have a master's degree in architectural engineering and spent about seven years working as a mechanical engineer and project leader at an MEP consulting firm.
+                Even though my primary duties were mechanical engineering related, I took every opportunity I could find to hone my skills as a developer as well.
+                I was a key member in numerous standards, improvements, and automation tasks.
+                <br><br>
+                My passion for software engineering led me to pursue this career change and I am currently going through the Flatiron School program.
+                After graduating from the course in early January, I am excited to pursue my first career in this industry!
+                <h5>Check out some of my projects below, and feel free to reach out to me on LinkedIn!</h5>
+            </div>
+            <!-- I am building this Django web application to give myself a place to document and share the projects I have worked on.
+            I am self-taught in programming and am most familiar with Python but have experience in HTML/CSS/JavaScript and SQL as well.
+            I also have limited experience in Lua and PHP.
+            The projects I've worked on have been opportunities for me to further my understanding of programming while also exploring another topic I'm interested in.
+            Links to my LinkedIn and GitHub are also included if you wish to contact me.
+            Thanks for taking a look! -->
+        </div>
+        <div id="main">
+            <div class="divider"><div class="divider-mask"></div></div>
+
+            <div class="project-card">
+                <div class="project-image-container">
+                    <picture class="project-image">
+                        <source type="image/svg+xml" srcset="./media/crash-landing-logo-2-exploded.svg">
+                        <img src="https://raw.githubusercontent.com/fitzgeraldkd/summer-code-jam-2020/master/mysterious-mice/spacebook-logo-light.png">
+                    </picture>
+                    <span class="helper"></span>
+                </div>
+                <div class="project-details">
+                    <div class="project-header">
+                        <span class="project-title display-6">Crash Landing</span>
+                        <span class="badge rounded-pill badge-javascript">JavaScript</span>
+                        <span class="badge rounded-pill badge-typescript">TypeScript</span>
+                        <span class="badge rounded-pill badge-jquery">jQuery</span>
+                    </div>
+                    <div class="project-description">
+                        A simple text-based browser game where you help a rover navigate the surface of Mars to find its power supply that was lost in a crash landing.
+                        This was originally developed as part of the Spacebook project built for the Python Discord Summer Code Jam 2020.
+                        I rebuilt it with to develop familiarity with TypeScript and to make this project accessible from a static web page.
+                        <br><br>
+                        <a href="#" role="button" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+                        <a href="#" role="button" class="btn btn-outline-secondary btn-sm">Live Demo</a>
                     </div>
                 </div>
             </div>
-        </a>
-    {% endfor %} -->
-    </div>
+
+            <div class="divider"><div class="divider-mask"></div></div>
+
+            <div class="project-card">
+                <div class="project-image-container">
+                    <picture class="project-image">
+                        <source type="image/svg+xml" srcset="./media/spacebook-logo-stacked-light-exploded.svg">
+                        <img src="https://raw.githubusercontent.com/fitzgeraldkd/summer-code-jam-2020/master/mysterious-mice/spacebook-logo-light.png">
+                    </picture>
+                    <span class="helper"></span>
+                </div>
+                <div class="project-details">
+                    <div class="project-header">
+                        <span class="project-title display-6">Spacebook</span>
+                        <span class="badge rounded-pill badge-python">Python</span>
+                        <span class="badge rounded-pill badge-django">Django</span>
+                    </div>
+                    <div class="project-description">
+                        This was developed for the Python Discord Summer Code Jam 2020, where I worked with a team of 4 to develop a web app in Django based on the theme "Early Internet."
+                        My team decided to build a social media website for the Mars rovers.
+                        Photos taken by the rovers were downloaded using API from NASA and were added as posts to each of the rovers' profiles.
+                        We also added a text-based game where you play as a rover that just crash landed on Mars.
+                        The goal of the game is to find your plutonium before your battery depletes.
+                        Out of the 45 teams that submitted projects, we finished in third place.
+                        The files for our project can be downloaded at the GitHub page, and instructions to set up and launch the site are included in the ReadMe.
+                        <br><br>
+                        <a href="#" role="button" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"><div class="divider-mask"></div></div>
+            
+            <div class="project-card">
+                <div class="project-image-container">
+                    <picture class="project-image">
+                        <source type="image/svg+xml" srcset="https://raw.githubusercontent.com/fitzgeraldkd/TomautoMate/main/icons/tomautomate.svg">
+                        <img>
+                        <!-- <img src="https://raw.githubusercontent.com/fitzgeraldkd/summer-code-jam-2020/master/mysterious-mice/spacebook-logo-light.png"> -->
+                    </picture>
+                    <span class="helper"></span>
+                </div>
+                <div class="project-details">
+                    <div class="project-header">
+                        <span class="project-title display-6">TomautoMate</span>
+                        <span class="badge rounded-pill badge-javascript">JavaScript</span>
+                    </div>
+                    <div class="project-description">
+                        A simple text-based browser game where you help a rover navigate the surface of Mars to find its power supply that was lost in a crash landing.
+                        This was originally developed as part of the Spacebook project built for the Python Discord Summer Code Jam 2020.
+                        I rebuilt it with to develop familiarity with TypeScript and to make this project accessible from a static web page.
+                        <br><br>
+                        <a href="#" role="button" class="btn btn-outline-secondary btn-sm">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"><div class="divider-mask"></div></div>
+        </div>
+
     </div>
 
 </body>
