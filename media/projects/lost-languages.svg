@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="400"
+   viewBox="0 0 264.58333 105.83334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="lost-languages.svg"
+   inkscape:export-filename="C:\Users\Kenny\Desktop\MyDocuments\Projects\Inkscape\lost-languages.png"
+   inkscape:export-xdpi="114.95434"
+   inkscape:export-ydpi="114.95434"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.74118968"
+     inkscape:cx="344.71608"
+     inkscape:cy="234.08313"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1016"
+     inkscape:window-y="1078"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g19672"
+     units="px" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter2776"
+       x="-0.76949368"
+       y="-0.65368605"
+       width="1.9186681"
+       height="1.7495106">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2766" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2768" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.3"
+         result="blur"
+         id="feGaussianBlur2770" />
+      <feOffset
+         dx="-2.99401"
+         dy="-4.19162"
+         result="offset"
+         id="feOffset2772" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2774" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4588"
+       x="-0.093823846"
+       y="-0.17975403"
+       width="1.1876477"
+       height="1.3595081">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.29387121"
+         id="feGaussianBlur4590" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4592"
+       x="-0.14384623"
+       y="-0.092401913"
+       width="1.2876925"
+       height="1.1848038">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.29387121"
+         id="feGaussianBlur4594" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g19672"
+       transform="matrix(6.4666169,0,0,6.4666169,-433.47632,-691.61389)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.93035px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.148259;filter:url(#filter4588)"
+         x="76.541435"
+         y="116.39483"
+         id="text4726-6"><tspan
+           sodipodi:role="line"
+           id="tspan4724-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.148259"
+           x="76.541435"
+           y="116.39483">ost</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.7511px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.268778;filter:url(#filter4592)"
+         x="70.380463"
+         y="116.39458"
+         id="text4726-9-0"><tspan
+           sodipodi:role="line"
+           id="tspan4724-2-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.268778"
+           x="70.380463"
+           y="116.39458">L</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.93035px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.148259"
+         x="79.263008"
+         y="120.67649"
+         id="text4726"><tspan
+           sodipodi:role="line"
+           id="tspan4724"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.148259"
+           x="79.263008"
+           y="120.67649">anguages</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.7511px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.268778"
+         x="73.102036"
+         y="120.67625"
+         id="text4726-9"><tspan
+           sodipodi:role="line"
+           id="tspan4724-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.268778"
+           x="73.102036"
+           y="120.67625">L</tspan></text>
+    </g>
+  </g>
+</svg>

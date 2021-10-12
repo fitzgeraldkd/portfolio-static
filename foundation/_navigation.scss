@@ -1,4 +1,4 @@
-@import 'variables';
+@use 'variables' as v;
 
 .navigation {
 	position: fixed;
@@ -15,7 +15,7 @@
 	overflow-y: hidden;
 	z-index: 3;
 
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
 		width: 4.5rem;
 		min-width: 4.5rem;
 		max-width: 4.5rem;
@@ -28,22 +28,22 @@
 
 .nav-item-container {
     
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
         margin-top: 10px;
     }
 
     .nav-item {
-        color: $linkcolor;
+        color: v.$linkcolor;
         text-decoration: none;
         transition: color 0.25s;
         margin-left: 10px;
         &:hover {
-            color: $linkcolor-hover;
+            color: v.$linkcolor-hover;
             .nav-item-glyph {
-                background-color: $linkcolor-hover;
+                background-color: v.$linkcolor-hover;
             }
         }
-        @media only screen and (min-width: $breakpoint) {
+        @media only screen and (min-width: v.$breakpoint) {
             margin-left: 0;
             margin-top: 10px;
         }
@@ -52,7 +52,7 @@
             display: inline-block;
             height: 100%;
             vertical-align: middle;
-            @media only screen and (min-width: $breakpoint) {
+            @media only screen and (min-width: v.$breakpoint) {
                 display: block;
                 height: 0;
             }
@@ -62,7 +62,7 @@
             position: relative;
             vertical-align: middle;
             left: -4px;
-            @media only screen and (min-width: $breakpoint) {
+            @media only screen and (min-width: v.$breakpoint) {
                 top: -4px;
                 left: 0;
             }
@@ -72,7 +72,7 @@
             // mask-size: cover;
             // -webkit-mask-size: cover;
             transition: background-color 0.25s;
-            background: $linkcolor;
+            background: v.$linkcolor;
             display: inline-block;
             vertical-align: middle;
             height: 32px;
@@ -99,27 +99,6 @@
                 -webkit-mask: url('./media/logos/portfolio.svg');
             }
         }
-    }
-}
-
-
-.nav-icon-text {
-    position: relative;
-    top: -8px;
-}
-
-.bi-devto {
-    mask: url('./media/dev-badge.svg');
-    -webkit-mask: url('./media/dev-badge.svg');
-    mask-size: cover;
-    -webkit-mask-size: cover;
-    background: #000000;
-    display: inline-block;
-    height: 37px;
-    width: 32px;
-
-    &:hover {
-        background: #888888;
     }
 }
 
@@ -150,7 +129,7 @@
         }
     }
 
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
 		background-image: linear-gradient(red, orange, yellow, green, blue, fuchsia, brown, black, red);
 		left: 4.5rem;
 		width: 1px;

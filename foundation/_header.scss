@@ -1,29 +1,31 @@
-@import 'variables';
+@use 'variables' as v;
 
 .headshot {
 	max-width: 200px;
 	border-radius: 50%;
 	box-shadow: 0 0 15px;
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
     }
 }
 
 .headshot-container {
 	text-align: center;
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
 		display: inline-block;
     }
 }
 
 .bio-container {
 	text-align: justify;
-    @media only screen and (min-width: $breakpoint) {
+  margin-top: 25px;
+    @media only screen and (min-width: v.$breakpoint) {
 		margin-left: 25px;
+    margin-top: 0;
     }
 }
 
 .home-header {
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
 		display: flex;
     }
 }
@@ -31,7 +33,7 @@
 .page-title {
     text-align: center;
     margin-bottom: 15px;
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
 		padding-left: 225px;
         text-align: left;
     }

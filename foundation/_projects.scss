@@ -1,4 +1,4 @@
-@import 'variables';
+@use 'variables' as v;
 
 .project-image-container {
 	text-align: center;
@@ -21,13 +21,13 @@
 }
 
 .project-card {
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
         display: flex;
     }
 }
 
 .project-details {
-    @media only screen and (min-width: $breakpoint) {
+    @media only screen and (min-width: v.$breakpoint) {
         margin-left: 25px;
     }
 }

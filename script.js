@@ -1,9 +1,11 @@
+import projects from "./projects.js";
+
 document.addEventListener('DOMContentLoaded', () => {
-    sendRequest('/projects', renderProjects);
+    // sendRequest('/projects', renderProjects);
+    renderProjects(projects.projects);
 })
 
 function renderProjects(projects) {
-    console.log(projects);
     projects.forEach(renderProject);
 }
 
@@ -47,11 +49,6 @@ function renderProject(project) {
             href: project.links[linkKey],
             class: 'project-link'
         }
-        // const attrs = {
-        //     href: project.links[linkKey],
-        //     role: 'button',
-        //     class: 'btn btn-outline-secondary btn-sm'
-        // }
         const linkIconAttrs = {class: ''};
         if (linkKey === 'GitHub') {
             linkIconAttrs.class = 'bi bi-github';
@@ -80,7 +77,7 @@ function renderDivider() {
 }
 
 function createElement(tag, attributes={}, contents='', children=[]) {
-    newElement = document.createElement(tag);
+    const newElement = document.createElement(tag);
     for (const attr in attributes) {
         newElement.setAttribute(attr, attributes[attr])
     }
@@ -89,9 +86,9 @@ function createElement(tag, attributes={}, contents='', children=[]) {
     return newElement;
 }
 
-function sendRequest(endpoint, callback) {
-    fetch(`http://localhost:3000${endpoint}`)
-        .then(resp => resp.json())
-        .catch(error => console.error(error))
-        .then(callback);
-}
+// function sendRequest(endpoint, callback) {
+//     fetch(`http://localhost:3000${endpoint}`)
+//         .then(resp => resp.json())
+//         .catch(error => console.error(error))
+//         .then(callback);
+// }

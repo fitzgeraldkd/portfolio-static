@@ -1,1 +1,5 @@
-@import 'foundation/navigation', 'foundation/main', 'foundation/projects', 'foundation/badges', 'foundation/header';
+@use 'foundation/navigation';
+@use 'foundation/main';
+@use 'foundation/projects';
+@use 'foundation/badges';
+@use 'foundation/header';

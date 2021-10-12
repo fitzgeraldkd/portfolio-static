@@ -96,25 +96,6 @@
   -webkit-mask: url("./media/logos/portfolio.svg");
 }
 
-.nav-icon-text {
-  position: relative;
-  top: -8px;
-}
-
-.bi-devto {
-  mask: url("./media/dev-badge.svg");
-  -webkit-mask: url("./media/dev-badge.svg");
-  mask-size: cover;
-  -webkit-mask-size: cover;
-  background: #000000;
-  display: inline-block;
-  height: 37px;
-  width: 32px;
-}
-.bi-devto:hover {
-  background: #888888;
-}
-
 #rainbow-scroll {
   position: fixed;
   animation-name: scrolling-vert;
@@ -312,10 +293,12 @@ span.badge.badge-typescript {
 
 .bio-container {
   text-align: justify;
+  margin-top: 25px;
 }
 @media only screen and (min-width: 768px) {
   .bio-container {
     margin-left: 25px;
+    margin-top: 0;
   }
 }
 
