@@ -26,6 +26,83 @@
     }
 }
 
+.nav-item-container {
+    
+    @media only screen and (min-width: $breakpoint) {
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        color: $linkcolor;
+        text-decoration: none;
+        transition: color 0.25s;
+        margin-left: 10px;
+        &:hover {
+            color: $linkcolor-hover;
+            .nav-item-glyph {
+                background-color: $linkcolor-hover;
+            }
+        }
+        @media only screen and (min-width: $breakpoint) {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+
+        .nav-item-helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            @media only screen and (min-width: $breakpoint) {
+                display: block;
+                height: 0;
+            }
+        }
+
+        .nav-item-text {
+            position: relative;
+            vertical-align: middle;
+            left: -4px;
+            @media only screen and (min-width: $breakpoint) {
+                top: -4px;
+                left: 0;
+            }
+        }
+
+        .nav-item-glyph {
+            // mask-size: cover;
+            // -webkit-mask-size: cover;
+            transition: background-color 0.25s;
+            background: $linkcolor;
+            display: inline-block;
+            vertical-align: middle;
+            height: 32px;
+            width: 32px;
+
+            &.glyph-devto {
+                height: 37px;
+                mask: url('./media/logos/devto.svg');
+                -webkit-mask: url('./media/logos/devto.svg');
+            }
+
+            &.glyph-github {
+                mask: url('./media/logos/github.svg');
+                -webkit-mask: url('./media/logos/github.svg');
+            }
+
+            &.glyph-linkedin {
+                mask: url('./media/logos/linkedin.svg');
+                -webkit-mask: url('./media/logos/linkedin.svg');
+            }
+
+            &.glyph-portfolio {
+                mask: url('./media/logos/portfolio.svg');
+                -webkit-mask: url('./media/logos/portfolio.svg');
+            }
+        }
+    }
+}
+
+
 .nav-icon-text {
     position: relative;
     top: -8px;
@@ -36,17 +113,12 @@
     -webkit-mask: url('./media/dev-badge.svg');
     mask-size: cover;
     -webkit-mask-size: cover;
-    /* background: url('./media/dev-badge.svg');
-    background-repeat: no-repeat;
-    background-size: cover; */
     background: #000000;
-    /* color: #000000; */
     display: inline-block;
     height: 37px;
     width: 32px;
 
     &:hover {
-        /* color: #888888; */
         background: #888888;
     }
 }
@@ -59,8 +131,6 @@
 	animation-timing-function: linear;
 	animation-fill-mode: both;
 	z-index: 5;
-	/* transition-duration: 0.5s; */
-	/* mobile */
 	background-image: linear-gradient(to right, red, orange, yellow, green, blue, fuchsia, brown, black, red);
 	left: 0px;
 	width: 100%;

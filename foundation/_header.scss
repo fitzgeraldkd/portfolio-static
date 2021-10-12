@@ -9,7 +9,6 @@
 }
 
 .headshot-container {
-	/* display: inline-block; */
 	text-align: center;
     @media only screen and (min-width: $breakpoint) {
 		display: inline-block;
@@ -17,7 +16,6 @@
 }
 
 .bio-container {
-	/* display: inline-block; */
 	text-align: justify;
     @media only screen and (min-width: $breakpoint) {
 		margin-left: 25px;
@@ -25,8 +23,16 @@
 }
 
 .home-header {
-	/* display: flex; */
     @media only screen and (min-width: $breakpoint) {
 		display: flex;
+    }
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 15px;
+    @media only screen and (min-width: $breakpoint) {
+		padding-left: 225px;
+        text-align: left;
     }
 }

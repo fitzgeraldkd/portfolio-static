@@ -45,10 +45,22 @@ function renderProject(project) {
     for (const linkKey in project.links) {
         const attrs = {
             href: project.links[linkKey],
-            role: 'button',
-            class: 'btn btn-outline-secondary btn-sm'
+            class: 'project-link'
         }
-        descriptionChildren.push(createElement('a', attrs, linkKey))
+        // const attrs = {
+        //     href: project.links[linkKey],
+        //     role: 'button',
+        //     class: 'btn btn-outline-secondary btn-sm'
+        // }
+        const linkIconAttrs = {class: ''};
+        if (linkKey === 'GitHub') {
+            linkIconAttrs.class = 'bi bi-github';
+        } else {
+            linkIconAttrs.class = 'bi bi-play-circle-fill';
+        }
+        const linkIcon = createElement('i', linkIconAttrs);
+        const linkText = createElement('span', {}, linkKey);
+        descriptionChildren.push(createElement('a', attrs, '', [linkIcon, linkText]))
         descriptionChildren.push(' ');
     }
     const description = createElement('div', {class: 'project-description'}, project.description, descriptionChildren);

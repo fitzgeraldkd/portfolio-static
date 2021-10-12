@@ -1,0 +1,24 @@
+<svg
+   viewBox="0 0 270.93333 270.93334"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <style>
+      path {
+         fill: #000000;
+      }
+      @media (prefers-color-scheme: dark) {
+         path {
+            fill: #FFFFFF;
+         }
+      }
+   </style>
+    <path
+       d="M 0,270.93333 V 237.06666 L 237.06666,0 h 33.86667 V 33.866666 L 33.866666,270.93333 H 0"
+       id="path868" />
+    <path
+       d="M 0,50.799999 50.799999,0 V 152.4 L 0,203.19999 V 50.799999"
+       id="path903" />
+    <path
+       d="m 270.93333,270.93333 -33.86667,0 L 152.4,186.26666 186.26666,152.4 l 84.66667,84.66666 z"
+       id="path938" />
+</svg>
