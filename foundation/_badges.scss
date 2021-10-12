@@ -1,0 +1,54 @@
+// ~~~ Project Badges ~~~
+
+span.badge {
+	border-width: 1px;
+	border-style: solid;
+
+	&.badge-django {
+		background-color: #0C4B33;
+		color: #ffffff;
+		border-color: #ffffff33;
+	}
+
+	&.badge-javascript {
+		background-color: #fcdc00;
+		color: #000000;
+		border-color: #00000033;
+	}
+
+	&.badge-jquery {
+		background-color: #0769ad;
+		color: #ffffff;
+		border-color: #ffffff33;
+	}
+
+	&.badge-python {
+		background-color: #3776ab;
+		color: #ffd343;
+		border-color: #ffd34333;
+	}
+
+	&.badge-rails {
+		background-color: #ffffff;
+		color: #cc0000;
+		border-color: #cc000033;
+	}
+
+	&.badge-react {
+		background-color: #282c34;
+		color: #61dafb;
+		border-color: #61dafb33;
+	}
+
+	&.badge-ruby {
+		background-color: #cc342d;
+		color: #ffffff;
+		border-color: #ffffff33;
+	}
+
+	&.badge-typescript {
+		background-color: #3178c6;
+		color: #ffffff;
+		border-color: #ffffff33;
+	}
+}

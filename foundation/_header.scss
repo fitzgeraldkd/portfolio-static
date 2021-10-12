@@ -1,0 +1,32 @@
+@import 'variables';
+
+.headshot {
+	max-width: 200px;
+	border-radius: 50%;
+	box-shadow: 0 0 15px;
+    @media only screen and (min-width: $breakpoint) {
+    }
+}
+
+.headshot-container {
+	/* display: inline-block; */
+	text-align: center;
+    @media only screen and (min-width: $breakpoint) {
+		display: inline-block;
+    }
+}
+
+.bio-container {
+	/* display: inline-block; */
+	text-align: justify;
+    @media only screen and (min-width: $breakpoint) {
+		margin-left: 25px;
+    }
+}
+
+.home-header {
+	/* display: flex; */
+    @media only screen and (min-width: $breakpoint) {
+		display: flex;
+    }
+}
