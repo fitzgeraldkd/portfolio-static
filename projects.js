@@ -1,6 +1,24 @@
 const projects = {
     "projects": [
       {
+        "id": 3,
+        "title": "Lost Languages",
+        "images": {
+          "vector": "./media/projects/lost-languages.svg",
+          "raster": "./media/projects/lost-languages.png"
+        },
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React"
+        ],
+        "description": "My first project built as part of the Flatiron School curriculum. Originally built with vanilla JavaScript as a project that interacts with a public API, I have rebuilt it with TypeScript + React for some additional practice. The purpose of this app is to provide users with a means to practice learning a new language and to see/vote on other users' translations.",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/lost-languages",
+          "Demo": "https://lost-languages.herokuapp.com/"
+        }
+      },
+      {
         "id": 1,
         "title": "Crash Landing",
         "images": {
@@ -12,10 +30,10 @@ const projects = {
           "TypeScript",
           "jQuery"
         ],
-        "description": "A simple text-based browser game where you help a rover navigate the surface of Mars to find its power supply that was lost in a crash landing. This was originally developed as part of the Spacebook project built for the Python Discord Summer Code Jam 2020. I rebuilt it with to develop familiarity with TypeScript and to make this project accessible from a static web page.",
+        "description": "A simple text-based browser game where you help a rover navigate the surface of Mars to find its power supply that was lost in a crash landing. This was originally developed as part of the Spacebook project built for the Python Discord Summer Code Jam 2020. I am in the process of rebuilding it to develop familiarity with TypeScript and to make this project accessible from a static web page.",
         "links": {
-          "GitHub": "#",
-          "Demo": "#"
+          "GitHub": "https://github.com/fitzgeraldkd/crash-landing",
+          "Demo": "https://fitzgeraldkd.github.io/crash-landing/"
         }
       },
       {
@@ -31,23 +49,7 @@ const projects = {
         ],
         "description": "This was developed for the Python Discord Summer Code Jam 2020, where I worked with a team of 4 to develop a web app in Django based on the theme \"Early Internet.\" My team decided to build a social media website for the Mars rovers. Photos taken by the rovers were downloaded using API from NASA and were added as posts to each of the rovers' profiles. We also added a text-based game where you play as a rover that just crash landed on Mars. The goal of the game is to find your plutonium before your battery depletes. Out of the 45 teams that submitted projects, we finished in third place. The files for our project can be downloaded at the GitHub page, and instructions to set up and launch the site are included in the ReadMe.",
         "links": {
-          "GitHub": "https://github.com/fitzgeraldkd/summer-code-jam-2020/tree/master/mysterious-mice"
-        }
-      },
-      {
-        "id": 3,
-        "title": "Lost Languages",
-        "images": {
-          "vector": "./media/projects/lost-languages.svg",
-          "raster": "./media/projects/lost-languages.png"
-        },
-        "technologies": [
-          "JavaScript",
-          "React"
-        ],
-        "description": "",
-        "links": {
-          "GitHub": "#"
+          "GitHub": "https://github.com/fitzgeraldkd/Spacebook"
         }
       },
       {
@@ -60,7 +62,7 @@ const projects = {
         "technologies": [
           "JavaScript"
         ],
-        "description": "",
+        "description": "A Chrome extension I've started building, mostly as a learning opportunity for myself, but also as a potential means to help with productivity. The goal of the extension is to allow the user to mark each window of Chrome as a task window or break window. When the timer changes between task and break mode, the appropriate windows will be hidden/shown automatically.",
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/TomautoMate"
         }
