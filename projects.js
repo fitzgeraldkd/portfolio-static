@@ -1,6 +1,20 @@
 const projects = {
     "projects": [
       {
+        "id": 5,
+        "title": "Dot Matrix Animator",
+        "images": {
+          "raster": "./media/projects/dot-matrix.gif"
+        },
+        "technologies": [
+          "Ruby"
+        ],
+        "description": "Dot Matrix Animator is a Ruby program that takes input images and creates an animated GIF where the frames are represented as dot matrix images. The RMagick library is used to process and generate images, and the Thor library is used to implement a command-line interface with options for user input. I started this project to familiarize myself with Ruby's syntax before going through the Flatiron School software engineering program.",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/dot-matrix"
+        }
+      },
+      {
         "id": 3,
         "title": "Lost Languages",
         "images": {
