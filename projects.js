@@ -29,7 +29,7 @@ const projects = {
         "description": "My first project built as part of the Flatiron School curriculum. Originally built with vanilla JavaScript as a project that interacts with a public API, I have rebuilt it with TypeScript + React for some additional practice. The purpose of this app is to provide users with a means to practice learning a new language and to see/vote on other users' translations.",
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/lost-languages",
-          "Demo": "https://lost-languages.herokuapp.com/"
+          "Demo": "https://lost-languages.netlify.app/"
         }
       },
       {
