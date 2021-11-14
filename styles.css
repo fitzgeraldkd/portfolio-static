@@ -95,6 +95,10 @@
   mask: url("./media/logos/portfolio.svg");
   -webkit-mask: url("./media/logos/portfolio.svg");
 }
+.nav-item-container .nav-item .nav-item-glyph.glyph-resume {
+  mask: url("./media/logos/resume.svg");
+  -webkit-mask: url("./media/logos/resume.svg");
+}
 
 #rainbow-scroll {
   position: fixed;

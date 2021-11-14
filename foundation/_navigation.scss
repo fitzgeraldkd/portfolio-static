@@ -98,6 +98,11 @@
                 mask: url('./media/logos/portfolio.svg');
                 -webkit-mask: url('./media/logos/portfolio.svg');
             }
+
+            &.glyph-resume {
+                mask: url('./media/logos/resume.svg');
+                -webkit-mask: url('./media/logos/resume.svg');
+            }
         }
     }
 }

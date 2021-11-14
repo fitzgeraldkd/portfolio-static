@@ -15,6 +15,23 @@ const projects = {
         }
       },
       {
+        "id": 6,
+        "title": "Going For Gold!",
+        "images": {
+          // "vector": "./media/projects/going-for-gold.svg",
+          "raster": "./media/projects/going-for-gold.png"
+        },
+        "technologies": [
+          "JavaScript",
+          "React"
+        ],
+        "description": "Going For Gold is a Jeapordy-like game where one person will act as the host and interact with the app. The host can share their screen with the players of the game and play through a game! Pick a question on the board, and the first player to guess correctly wins the money and gets control of the board. Any incorrect answers will result in losing money. At the end of the game, the player with the most money gets their winnings added to their running total!",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/going-for-gold-frontend",
+          "Demo": "https://goingforgold.netlify.app/"
+        }
+      },
+      {
         "id": 3,
         "title": "Lost Languages",
         "images": {
@@ -33,6 +50,22 @@ const projects = {
         }
       },
       {
+        "id": 2,
+        "title": "Spacebook",
+        "images": {
+          "vector": "./media/projects/spacebook.svg",
+          "raster": "./media/projects/spacebook.png"
+        },
+        "technologies": [
+          "Python",
+          "Django"
+        ],
+        "description": "This was developed for the Python Discord Summer Code Jam 2020, where I worked with a team of 4 to develop a web app in Django based on the theme \"Early Internet.\" My team decided to build a social media website for the Mars rovers. Photos taken by the rovers were downloaded using API from NASA and were added as posts to each of the rovers' profiles. We also added a text-based game where you play as a rover that just crash landed on Mars. The goal of the game is to find your plutonium before your battery depletes. Out of the 45 teams that submitted projects, we finished in third place. The files for our project can be downloaded at the GitHub page, and instructions to set up and launch the site are included in the ReadMe.",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/Spacebook"
+        }
+      },
+      {
         "id": 1,
         "title": "Crash Landing",
         "images": {
@@ -48,22 +81,6 @@ const projects = {
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/crash-landing",
           "Demo": "https://fitzgeraldkd.github.io/crash-landing/"
-        }
-      },
-      {
-        "id": 2,
-        "title": "Spacebook",
-        "images": {
-          "vector": "./media/projects/spacebook.svg",
-          "raster": "./media/projects/spacebook.png"
-        },
-        "technologies": [
-          "Python",
-          "Django"
-        ],
-        "description": "This was developed for the Python Discord Summer Code Jam 2020, where I worked with a team of 4 to develop a web app in Django based on the theme \"Early Internet.\" My team decided to build a social media website for the Mars rovers. Photos taken by the rovers were downloaded using API from NASA and were added as posts to each of the rovers' profiles. We also added a text-based game where you play as a rover that just crash landed on Mars. The goal of the game is to find your plutonium before your battery depletes. Out of the 45 teams that submitted projects, we finished in third place. The files for our project can be downloaded at the GitHub page, and instructions to set up and launch the site are included in the ReadMe.",
-        "links": {
-          "GitHub": "https://github.com/fitzgeraldkd/Spacebook"
         }
       },
       {

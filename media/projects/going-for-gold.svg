@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1200"
+   height="1200"
+   viewBox="0 0 317.49999 317.50001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="going-for-gold.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.37059484"
+     inkscape:cx="719.11417"
+     inkscape:cy="527.53028"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1016"
+     inkscape:window-y="1078"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="246.13612"
+       y="393.05458"
+       width="761.30474"
+       height="465.55979"
+       id="rect3927" />
+    <filter
+       inkscape:label="Metallized Ridge"
+       inkscape:menu="Ridges"
+       inkscape:menu-tooltip="Gel Ridge metallized at its top"
+       height="1.1962365"
+       y="-0.098118237"
+       width="1.1962365"
+       x="-0.098118237"
+       style="color-interpolation-filters:sRGB;"
+       id="filter2299">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur2275" />
+      <feGaussianBlur
+         stdDeviation="8"
+         result="result6"
+         in="result1"
+         id="feGaussianBlur2277" />
+      <feComposite
+         operator="atop"
+         in="result6"
+         in2="result1"
+         result="result8"
+         id="feComposite2279" />
+      <feComposite
+         operator="xor"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite2281" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 2 0 "
+         id="feColorMatrix2283" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphicAlpha"
+         stdDeviation="2.5"
+         id="feGaussianBlur2285" />
+      <feSpecularLighting
+         specularExponent="35"
+         specularConstant="1"
+         surfaceScale="4"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting2289">
+        <fePointLight
+           z="20000"
+           y="-10000"
+           x="-5000"
+           id="fePointLight2287" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphicAlpha"
+         id="feComposite2291" />
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite2293" />
+      <feComposite
+         operator="atop"
+         in="result9"
+         in2="result4"
+         result="result91"
+         id="feComposite2295" />
+      <feBlend
+         mode="multiply"
+         in2="result91"
+         id="feBlend2297" />
+    </filter>
+    <filter
+       inkscape:menu-tooltip="Glowing metal texture"
+       inkscape:menu="Bevels"
+       inkscape:label="Glowing Metal"
+       style="color-interpolation-filters:sRGB;"
+       id="filter19909"
+       x="-0.070300091"
+       y="-0.067914903"
+       width="1.1406002"
+       height="1.1358298">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result10"
+         id="feGaussianBlur19891" />
+      <feBlend
+         in2="SourceGraphic"
+         result="result5"
+         mode="multiply"
+         in="result10"
+         id="feBlend19893" />
+      <feComposite
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="over"
+         id="feComposite19895" />
+      <feGaussianBlur
+         result="result9"
+         stdDeviation="5"
+         id="feGaussianBlur19897" />
+      <feSpecularLighting
+         in="result9"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="1"
+         specularConstant="2.2"
+         specularExponent="45"
+         id="feSpecularLighting19901">
+        <fePointLight
+           x="-5000"
+           y="-10000"
+           z="20000"
+           id="fePointLight19899" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in"
+         id="feComposite19903" />
+      <feComposite
+         in="result2"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="0.8"
+         in2="fbSourceGraphic"
+         id="feComposite19905" />
+      <feBlend
+         in="result4"
+         in2="result4"
+         mode="multiply"
+         id="feBlend19907" />
+    </filter>
+    <filter
+       inkscape:label="Bloom"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
+       style="color-interpolation-filters:sRGB;"
+       id="filter21145"
+       x="-0.039622481"
+       y="-0.098254129"
+       width="1.079245"
+       height="1.1965083">
+      <feGaussianBlur
+         result="result1"
+         in="SourceAlpha"
+         stdDeviation="2.2"
+         id="feGaussianBlur21121" />
+      <feSpecularLighting
+         result="result0"
+         specularExponent="18.1"
+         specularConstant="2"
+         surfaceScale="5"
+         id="feSpecularLighting21125">
+        <feDistantLight
+           azimuth="225"
+           elevation="24"
+           id="feDistantLight21123" />
+      </feSpecularLighting>
+      <feComposite
+         result="result6"
+         operator="in"
+         in2="SourceAlpha"
+         id="feComposite21127" />
+      <feMorphology
+         radius="5.7"
+         operator="dilate"
+         id="feMorphology21129" />
+      <feGaussianBlur
+         result="result11"
+         stdDeviation="5.7"
+         id="feGaussianBlur21131" />
+      <feDiffuseLighting
+         surfaceScale="5"
+         result="result3"
+         diffuseConstant="2"
+         in="result1"
+         id="feDiffuseLighting21135">
+        <feDistantLight
+           elevation="25"
+           azimuth="225"
+           id="feDistantLight21133" />
+      </feDiffuseLighting>
+      <feBlend
+         result="result7"
+         mode="multiply"
+         in="result3"
+         in2="SourceGraphic"
+         id="feBlend21137" />
+      <feComposite
+         in="result7"
+         operator="in"
+         in2="SourceAlpha"
+         result="result91"
+         id="feComposite21139" />
+      <feBlend
+         result="result9"
+         mode="lighten"
+         in="result6"
+         in2="result91"
+         id="feBlend21141" />
+      <feComposite
+         in="result11"
+         in2="result9"
+         id="feComposite21143" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#c0c000;fill-opacity:1;stroke-width:0.507;filter:url(#filter19909)"
+       id="path19685"
+       cx="162.30396"
+       cy="157.0032"
+       rx="136.55743"
+       ry="141.35336" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.41122799,0,0,0.41122799,-42.937842,-68.053029)"
+       id="text3925"
+       style="font-style:normal;font-weight:normal;font-size:266.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3927);fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21145)"><tspan
+         x="246.13672"
+         y="633.25616"
+         id="tspan21291"><tspan
+           style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI'"
+           id="tspan21289">G4G</tspan></tspan></text>
+  </g>
+</svg>
