@@ -20,6 +20,12 @@ span.badge {
 		border-color: #ffffff33;
 	}
 
+	&.badge-postgres {
+		background-color: #336791;
+		color: #ffffff;
+		border-color: #ffffff33;
+	}
+
 	&.badge-python {
 		background-color: #3776ab;
 		color: #ffd343;

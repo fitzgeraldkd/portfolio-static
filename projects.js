@@ -1,6 +1,27 @@
 const projects = {
     "projects": [
       {
+        "id": 7,
+        "title": "AppliTracker",
+        "images": {
+          "vector": "./media/projects/applitracker.svg",
+          "raster": "./media/projects/applitracker.png"
+        },
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Ruby",
+          "Rails",
+          "Postgres"
+        ],
+        "description": "AppliTracker is an app that provides job-seekers with a tool to track where they have applied to and the status of their applications. Users can add job listings they've applied to and update them as they work through the interviewing process. The user can also add events to a calendar to help keep track of any application deadlines or upcoming interviews.",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/applitracker-frontend",
+          "Demo": "https://applitracker.netlify.app/"
+        }
+      },
+      {
         "id": 5,
         "title": "Dot Matrix Animator",
         "images": {

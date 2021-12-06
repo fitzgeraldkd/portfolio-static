@@ -255,6 +255,11 @@ span.badge.badge-jquery {
   color: #ffffff;
   border-color: #ffffff33;
 }
+span.badge.badge-postgres {
+  background-color: #336791;
+  color: #ffffff;
+  border-color: #ffffff33;
+}
 span.badge.badge-python {
   background-color: #3776ab;
   color: #ffd343;
