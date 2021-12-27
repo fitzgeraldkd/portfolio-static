@@ -52,8 +52,12 @@ function renderProject(project) {
         const linkIconAttrs = {class: ''};
         if (linkKey === 'GitHub') {
             linkIconAttrs.class = 'bi bi-github';
-        } else {
+        } else if (linkKey === 'Download') {
+            linkIconAttrs.class = 'bi bi-download';
+        } else if (linkKey === 'Demo') {
             linkIconAttrs.class = 'bi bi-play-circle-fill';
+        } else {
+            linkIconAttrs.class = 'bi bi-link-45deg';
         }
         const linkIcon = createElement('i', linkIconAttrs);
         const linkText = createElement('span', {}, linkKey);

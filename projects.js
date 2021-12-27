@@ -1,6 +1,22 @@
 const projects = {
     "projects": [
       {
+        "id": 8,
+        "title": "Decapsulator",
+        "images": {
+          "vector": "./media/projects/decapsulator.svg",
+          "raster": "./media/projects/decapsulator.png"
+        },
+        "technologies": [
+          "TypeScript"
+        ],
+        "description": "Decapsulator is a VS Code extension that allows you to quickly remove certain characters from the start and end of a string. This is meant to provide a quick way to remove characters like quotes or brackets that wrap the selection so you can encapsulate them in something else.",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/decapsulator",
+          "Download": "https://marketplace.visualstudio.com/items?itemName=fitzgeraldkd.decapsulator"
+        }
+      },
+      {
         "id": 7,
         "title": "AppliTracker",
         "images": {
