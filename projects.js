@@ -1,6 +1,26 @@
 const projects = {
     "projects": [
       {
+        "id": 9,
+        "title": "Grocer",
+        "images": {
+          "raster": "./media/projects/grocer.png"
+        },
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Redux",
+          "Ruby",
+          "Rails",
+          "Postgres"
+        ],
+        "description": "Organize your recipes and compile shopping lists quickly with Grocer! Save your recipes, quickly find them by searching and filtering, and add all of the required ingredients to your basket with the click of a button. A great way for anyone to keep all of their favorite recipes in one place!",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/grocer"
+        }
+      },
+      {
         "id": 8,
         "title": "Decapsulator",
         "images": {
@@ -34,7 +54,7 @@ const projects = {
         "description": "AppliTracker is an app that provides job-seekers with a tool to track where they have applied to and the status of their applications. Users can add job listings they've applied to and update them as they work through the interviewing process. The user can also add events to a calendar to help keep track of any application deadlines or upcoming interviews.",
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/applitracker-frontend",
-          "Demo": "https://applitracker.netlify.app/"
+          "Visit": "https://applitracker.netlify.app/"
         }
       },
       {
@@ -65,7 +85,7 @@ const projects = {
         "description": "Going For Gold is a Jeapordy-like game where one person will act as the host and interact with the app. The host can share their screen with the players of the game and play through a game! Pick a question on the board, and the first player to guess correctly wins the money and gets control of the board. Any incorrect answers will result in losing money. At the end of the game, the player with the most money gets their winnings added to their running total!",
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/going-for-gold-frontend",
-          "Demo": "https://goingforgold.netlify.app/"
+          "Visit": "https://goingforgold.netlify.app/"
         }
       },
       {
@@ -83,7 +103,7 @@ const projects = {
         "description": "My first project built as part of the Flatiron School curriculum. Originally built with vanilla JavaScript as a project that interacts with a public API, I have rebuilt it with TypeScript + React for some additional practice. The purpose of this app is to provide users with a means to practice learning a new language and to see/vote on other users' translations.",
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/lost-languages",
-          "Demo": "https://lost-languages.netlify.app/"
+          "Visit": "https://lost-languages.netlify.app/"
         }
       },
       {
@@ -114,10 +134,10 @@ const projects = {
           "TypeScript",
           "jQuery"
         ],
-        "description": "A simple text-based browser game where you help a rover navigate the surface of Mars to find its power supply that was lost in a crash landing. This was originally developed as part of the Spacebook project built for the Python Discord Summer Code Jam 2020. I am in the process of rebuilding it to develop familiarity with TypeScript and to make this project accessible from a static web page.",
+        "description": "Note: This app is a work in progress. A simple text-based browser game where you help a rover navigate the surface of Mars to find its power supply that was lost in a crash landing. This was originally developed as part of the Spacebook project built for the Python Discord Summer Code Jam 2020. I am in the process of rebuilding it to develop familiarity with TypeScript and to make this project accessible from a static web page.",
         "links": {
           "GitHub": "https://github.com/fitzgeraldkd/crash-landing",
-          "Demo": "https://fitzgeraldkd.github.io/crash-landing/"
+          "Visit": "https://fitzgeraldkd.github.io/crash-landing/"
         }
       },
       {
