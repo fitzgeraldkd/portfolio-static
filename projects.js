@@ -23,6 +23,24 @@ const projects = {
         }
       },
       {
+        "id": 10,
+        "title": "Piano Roll",
+        "images": {
+          "vector": "./media/projects/piano-roll.svg",
+          "raster": "./media/projects/piano-roll.png"
+        },
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "React"
+        ],
+        "description": "Built in only 5 hours, this was my submission for a hackathon that I participated in on January 17, 2022. The task was to build a virtual instrument, so I built a piano roll sequencer where you can write out a simple 4-beat melody. The oscillator and BPM can be adjusted, and the sequence can be played on loop if desired.",
+        "links": {
+          "GitHub": "https://github.com/fitzgeraldkd/piano-roll",
+          "Visit": "https://piano-roll.netlify.app/"
+        }
+      },
+      {
         "id": 8,
         "title": "Decapsulator",
         "images": {
